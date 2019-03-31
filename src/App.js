@@ -7,20 +7,32 @@ import Grid from "@material-ui/core/Grid";
 class App extends Component {
   constructor(props) {
     super(props);
+
+    this.state = {
+      results: []
+    };
   }
 
   render() {
     return (
-      <div>
+      <>
         <Grid container spacing={0}>
           <Grid item xs>
             <Header />
           </Grid>
-          <Grid item xs>
+        </Grid>
+        <Grid
+          container
+          direction="column"
+          spacing={0}
+          alignItems="center"
+          justify="center"
+        >
+          <Grid item xs={12}>
             <SearchBar />
           </Grid>
         </Grid>
-      </div>
+      </>
     );
   }
 }

@@ -10082,6 +10082,13 @@ react-fuzzy@^0.5.2:
     fuse.js "^3.0.1"
     prop-types "^15.5.9"
 
+react-geolocated@^2.4.1:
+  version "2.4.1"
+  resolved "https://registry.yarnpkg.com/react-geolocated/-/react-geolocated-2.4.1.tgz#71b270b3244ad36ace9b872b3e2b9119162566e4"
+  integrity sha512-F3SsRzZQe0pKk+QKYUkETxxjBnOsMEe7Mytvc0qT4OmlvaZR874u1YjYkeFapkBIyitGScChghsEFx+WBZlDnw==
+  dependencies:
+    prop-types "^15.5.8"
+
 react-inspector@^2.3.0:
   version "2.3.1"
   resolved "https://registry.yarnpkg.com/react-inspector/-/react-inspector-2.3.1.tgz#f0eb7f520669b545b441af9d38ec6d706e5f649c"
